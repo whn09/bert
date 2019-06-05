@@ -378,7 +378,7 @@ class MyTaskProcessor(DataProcessor):
     """Processor for the News data set (GLUE version)."""
 
     def __init__(self):
-        self.labels = [str(i) for i in range(17)]
+        self.labels = ['__label__'+str(i) for i in range(17)]
     
     def get_train_examples(self, data_dir):
         return self._create_examples(
