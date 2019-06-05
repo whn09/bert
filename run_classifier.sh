@@ -15,6 +15,6 @@ python run_classifier.py \
   --train_batch_size=1024 \
   --eval_batch_size=256 \
   --learning_rate=2e-5 \
-  --num_train_epochs=100 \
+  --num_train_epochs=10 \
   --output_dir=/tmp/mytask_output/ \
   --use_tpu=False
